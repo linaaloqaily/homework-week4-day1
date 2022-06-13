@@ -1,0 +1,36 @@
+/*Some necessary adjustments*/
+h1, body, html, main {
+  margin: 0;
+}
+/*Import the font and set the default size*/
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px
+}
+
+body {
+  background-color: white;
+  text-align: center;
+}
+.hero-image{
+background-image: url("images/soup.jpg");
+}
+.hero-text {
+  top: 20%;
+  left: 50%;
+  color: white;
+  position: absolute;
+  transform:translate(-50%,-30%);
+  font-size: 220%
+}
+.Ingredients-Directions{
+  text-align:left;
+  color: rgb(76, 75, 75);
+  margin: 5%
+}
+#image3{
+  text-align: center;
+}
+ul {
+  list-style-type: '- ';
+} 
